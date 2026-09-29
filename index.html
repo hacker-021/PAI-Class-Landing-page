@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="PAI Class — The AI-Native Higher Education OS and LMS. Experience RAG lecture-grounded AI tutors, 1-tap swipe attendance, automated assignment grading, and instant transcript intelligence. Education without the friction.">
+  <meta name="keywords" content="PAI Class, LMS, AI Education, RAG Tutor, Swipe Attendance, PTUT, Higher Education Operating System">
+  <meta name="theme-color" content="#4F46E5">
+  <title>PAI Class — The AI-Native Higher Education OS | Frictionless Education</title>
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="PAI Class — The AI-Native Higher Education OS">
+  <meta property="og:description" content="Education without the friction. Replace legacy academic software with an all-in-one AI platform.">
+  <meta property="og:type" content="website">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Dynamic Glowing Background Canvas -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-orb ambient-orb-3"></div>
+  </div>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ==========================================================================
+       STICKY APPLE FROSTED GLASS NAVIGATION
+       ========================================================================== -->
+  <nav class="site-nav" id="mainNav">
+    <div class="nav-pill-container">
+      <div class="nav-glass-bar">
+        
+        <!-- Logo & Brand -->
+        <a href="#hero" class="nav-brand" aria-label="PAI Class Home">
+          <div class="nav-logo-badge">P</div>
+          <span class="nav-brand-text">PAI Class</span>
+          <div class="nav-status-pill">
+            <span class="status-dot-pulse"></span>
+            <span>Live Sync Active</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links">
+          <a href="#comparison" class="nav-link">Why PAI Class</a>
+          <a href="#portals" class="nav-link">Tri-Portal</a>
+          <a href="#simulators" class="nav-link">Simulators</a>
+          <a href="#fence" class="nav-link">Strict RAG Fence</a>
+          <a href="#deck" class="nav-link">Deck (15 Slides)</a>
+          <a href="#architecture" class="nav-link">Architecture</a>
+        </div>
+
+        <!-- Call to Action & Mobile Toggle -->
+        <div class="nav-cta-group">
+          <a href="#portals" class="btn btn-primary btn-sm">
+            <span>Launch Portal</span>
+            <span style="font-size:1.1rem;margin-left:2px">→</span>
+          </a>
+          <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open Navigation Menu">☰</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a href="#comparison" class="nav-link">Why PAI Class</a>
+      <a href="#portals" class="nav-link">Tri-Portal Experience</a>
+      <a href="#simulators" class="nav-link">Interactive Simulators</a>
+      <a href="#fence" class="nav-link">Strict RAG Fence</a>
+      <a href="#deck" class="nav-link">Presentation Deck (15 Slides)</a>
+      <a href="#architecture" class="nav-link">Architecture & Specs</a>
+      <a href="#portals" class="btn btn-primary" style="margin-top:10px">Launch Portal →</a>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       HERO SECTION (With 3D Perspective Tilt Showcase)
+       ========================================================================== */ -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+
+      <!-- Pill Badge -->
+      <div class="hero-pill-badge">
+        <span class="hero-pill-sparkle">✨</span>
+        <span>Next-Gen Higher Education LMS</span>
+        <span class="hero-pill-dot">·</span>
+        <span>Frictionless Education</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="hero-heading">
+        Learning, Elevated by<br>
+        <span class="gradient-text-vibrant">True Intelligence.</span>
+      </h1>
+
+      <!-- Subtitle -->
+      <p class="hero-lead">
+        PAI Class replaces legacy academic software with an all-in-one AI platform. Experience RAG-grounded lecture tutors, 1-tap swipe attendance, automated assignment pre-grading, and instant transcript intelligence.
+      </p>
+
+      <!-- Action Buttons -->
+      <div class="hero-actions-row">
+        <a href="#simulators" class="btn btn-primary">
+          <span>Try Interactive Simulators</span>
+          <span style="font-size:1.15rem">⚡</span>
+        </a>
+        <a href="#deck" class="btn btn-secondary">
+          <span>📖 Explore Presentation Deck (15 Slides)</span>
+        </a>
+      </div>
+
+      <!-- 3D Perspective Tilt Showcase Device -->
+      <div class="hero-stage">
+        <div class="hero-mockup-card" id="heroMockupCard">
+
+          <!-- Floating Telemetry Chip Left -->
+          <div class="telemetry-chip telemetry-chip-left" aria-hidden="true">
+            <div class="telemetry-icon-wrap telemetry-icon-emerald">
+              <span>🎯</span>
+            </div>
+            <div>
+              <div class="telemetry-label">Attendance Health</div>
+              <div class="telemetry-value">100% On Track</div>
+            </div>
+          </div>
+
+          <!-- Floating Telemetry Chip Right -->
+          <div class="telemetry-chip telemetry-chip-right" aria-hidden="true">
+            <div class="telemetry-icon-wrap telemetry-icon-indigo">
+              <span>⚡</span>
+            </div>
+            <div>
+              <div class="telemetry-label">RAG Query Latency</div>
+              <div class="telemetry-value">&lt; 1s Grounded</div>
+            </div>
+          </div>
+
+          <!-- Mockup Inner Screen -->
+          <div class="hero-mockup-inner">
+            <img src="assets/screens/teacher/dashboard.png" alt="PAI Class Master Dashboard Showcase" class="hero-mockup-img" id="heroMockupImg">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TRUST & REAL-TIME METRICS STRIP
+       ========================================================================== -->
+  <section class="metrics-strip" id="metrics">
+    <div class="container">
+      <div class="metrics-grid">
+        
+        <div class="metric-item">
+          <div class="metric-number metric-number-indigo">100%</div>
+          <div class="metric-caption">Real-Time Sync Across All Portals</div>
+        </div>
+
+        <div class="metric-item">
+          <div class="metric-number metric-number-cyan">&lt; 1s</div>
+          <div class="metric-caption">RAG Lecture AI Query Latency</div>
+        </div>
+
+        <div class="metric-item">
+          <div class="metric-number metric-number-emerald">0%</div>
+          <div class="metric-caption">Hallucination (Strict Slide Fence)</div>
+        </div>
+
+        <div class="metric-item">
+          <div class="metric-number metric-number-violet">100%</div>
+          <div class="metric-caption">On-Premises Privacy &amp; SQLite WAL</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       THE FRICTION OF THE OLD WAY VS. SPEED OF PAI CLASS (Slide 2, 4 & 13)
+       ========================================================================== -->
+  <section class="section-wrapper" id="comparison">
+    <div class="container">
+      
+      <div class="section-header-center">
+        <div class="section-tag section-tag-rose">
+          <span>The Friction of the Old Way</span>
+        </div>
+        <h2 class="section-title">Old School Systems Are Just <span class="gradient-text">Digital File Cabinets</span></h2>
+        <p class="section-subtitle">
+          They store files, but they don’t actually help. Teachers waste hours on paperwork, students wait weeks for grades, and admins get stuck fixing messy data by hand.
+        </p>
+      </div>
+
+      <!-- 2-Column Comparison Matrix -->
+      <div class="comparison-grid">
+
+        <!-- Column 1: The Old Way -->
+        <div class="comparison-col-old glass-card">
+          <div class="comparison-header">
+            <div>
+              <h3 style="font-size:1.35rem;margin-bottom:4px;color:#991B1B">The Old Way</h3>
+              <p style="font-size:0.875rem;color:#7F1D1D">Legacy academic LMS &amp; paper bureaucracy</p>
+            </div>
+            <div class="comparison-badge-old">Friction &amp; Delays</div>
+          </div>
+
+          <ul class="comparison-list">
+            <li class="comparison-row">
+              <div class="comparison-icon-old">✕</div>
+              <div>
+                <div class="comparison-text-title">Type names and emails one by one</div>
+                <div class="comparison-text-desc">Registrars spend full days manually entering enrollment lists and setting up initial passwords.</div>
+              </div>
+            </li>
+            <li class="comparison-row">
+              <div class="comparison-icon-old">✕</div>
+              <div>
+                <div class="comparison-text-title">Call out names and mark paper sheets</div>
+                <div class="comparison-text-desc">Teachers lose 15 minutes per lecture doing roll calls on paper that easily gets misplaced.</div>
+              </div>
+            </li>
+            <li class="comparison-row">
+              <div class="comparison-icon-old">✕</div>
+              <div>
+                <div class="comparison-text-title">Wait days for a teacher's office hours</div>
+                <div class="comparison-text-desc">Students get stuck on assignments overnight with nowhere to verify lecture notes.</div>
+              </div>
+            </li>
+            <li class="comparison-row">
+              <div class="comparison-icon-old">✕</div>
+              <div>
+                <div class="comparison-text-title">Chase down paper medical notes in hallways</div>
+                <div class="comparison-text-desc">Disputing an accidental absence requires manual approval slips and delayed recalculations.</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 2: PAI Class -->
+        <div class="comparison-col-new glass-card">
+          <div class="comparison-header">
+            <div>
+              <h3 style="font-size:1.35rem;margin-bottom:4px;color:#065F46">PAI Class</h3>
+              <p style="font-size:0.875rem;color:#047857">AI-Native Higher Education Operating System</p>
+            </div>
+            <div class="comparison-badge-new">⚡ Instant Speed</div>
+          </div>
+
+          <ul class="comparison-list">
+            <li class="comparison-row">
+              <div class="comparison-icon-new">✓</div>
+              <div>
+                <div class="comparison-text-title">Drag &amp; drop a CSV file; AI fixes missing data</div>
+                <div class="comparison-text-desc">Smart fuzzy column matching maps messy headers and provisions thousands of accounts in 2 seconds.</div>
+              </div>
+            </li>
+            <li class="comparison-row">
+              <div class="comparison-icon-new">✓</div>
+              <div>
+                <div class="comparison-text-title">Use a phone to quickly swipe right or left</div>
+                <div class="comparison-text-desc">Swipe Right = Present, Swipe Left = Absent. Math updates instantly, triggering alerts automatically.</div>
+              </div>
+            </li>
+            <li class="comparison-row">
+              <div class="comparison-icon-new">✓</div>
+              <div>
+                <div class="comparison-text-title">Ask the 24/7 AI Tutor anytime, day or night</div>
+                <div class="comparison-text-desc">Answers in English or Urdu, citing the exact lecture slide with 0% external hallucinations.</div>
+              </div>
+            </li>
+            <li class="comparison-row">
+              <div class="comparison-icon-new">✓</div>
+              <div>
+                <div class="comparison-text-title">1-Click absence appeal resolution online</div>
+                <div class="comparison-text-desc">Students upload digital proof; teachers tap 'Approve' and attendance math is automatically reconciled.</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TRI-PORTAL EXPERIENCE SWITCHER (Slide 6, 8, 9, 14)
+       ========================================================================== -->
+  <section class="section-wrapper" id="portals">
+    <div class="container">
+      
+      <div class="section-header-center">
+        <div class="section-tag section-tag-cyan">
+          <span>Tri-Portal Architecture</span>
+        </div>
+        <h2 class="section-title">A Fully Connected Campus Where <span class="gradient-text">Everyone Works Together</span></h2>
+        <p class="section-subtitle">
+          Three dedicated, distraction-free single-page portals tailored for Students, Teachers, and University Administrators.
+        </p>
+      </div>
+
+      <!-- Segmented Role Tabs Navigation -->
+      <div class="portal-tabs-wrap">
+        <div class="portal-tabs-nav" role="tablist">
+          <button class="portal-tab-btn active" data-role="student" role="tab">🧑‍🎓 Student Portal</button>
+          <button class="portal-tab-btn" data-role="teacher" role="tab">👩‍🏫 Teacher Portal</button>
+          <button class="portal-tab-btn" data-role="admin" role="tab">🛡️ Administrator Portal</button>
+        </div>
+      </div>
+
+      <!-- Tab 1: Student Portal -->
+      <div class="portal-showcase-panel active" id="panel-student">
+        <div class="portal-info-side">
+          <span class="portal-role-tag" style="background:rgba(99,102,241,0.12);color:var(--brand-primary)">Student Experience</span>
+          <h3 style="font-size:1.875rem;margin-bottom:12px">Students always know exactly how they are doing</h3>
+          <p style="color:var(--text-secondary);font-size:1rem;margin-bottom:20px">
+            The student dashboard unifies attendance percentages, assignment countdowns, exam results, and course lecture notes on a single screen. No searching through complex menus.
+          </p>
+          
+          <div class="portal-features-grid">
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet">✓</div>
+              <div><strong>Real-Time Attendance Ring Gauge:</strong> Instant visual feedback with automated warning badges if below the 75% threshold.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet">✓</div>
+              <div><strong>Bilingual Subject AI Tutor:</strong> Ask questions in English or Urdu; answers strictly cite your teacher's slides.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet">✓</div>
+              <div><strong>Interactive Timed Quiz Canvas:</strong> Server-authoritative countdown timer with instant scoring.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet">✓</div>
+              <div><strong>Frictionless Absence Appeals:</strong> Upload doctor notes directly from your phone for 1-click teacher review.</div>
+            </div>
+          </div>
+        </div>
+        <div class="portal-image-side">
+          <div class="portal-image-frame">
+            <img src="assets/screens/student/dashboard.png" alt="PAI Class Student Portal Dashboard">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Teacher Portal -->
+      <div class="portal-showcase-panel" id="panel-teacher">
+        <div class="portal-info-side">
+          <span class="portal-role-tag" style="background:rgba(16,185,129,0.12);color:#059669">Teacher Experience</span>
+          <h3 style="font-size:1.875rem;margin-bottom:12px">Quickly teach, swipe attendance, and grade</h3>
+          <p style="color:var(--text-secondary);font-size:1rem;margin-bottom:20px">
+            Eliminate repetitive administrative drudgery. The Teacher Urgent Action Center prioritizes what matters today: attendance appeals, grading queues, and live class rosters.
+          </p>
+
+          <div class="portal-features-grid">
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(16,185,129,0.12);color:#059669">✓</div>
+              <div><strong>Smart Swipe Attendance:</strong> Mark an entire class roster in 30 seconds with intuitive touch/keyboard swipes.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(16,185,129,0.12);color:#059669">✓</div>
+              <div><strong>Human-in-the-Loop AI Pre-Grading:</strong> AI performs OCR extraction, checks student similarity, and drafts scores for your final review.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(16,185,129,0.12);color:#059669">✓</div>
+              <div><strong>AI Quiz Builder:</strong> Generate high-quality MCQs and conceptual questions directly from uploaded slides.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(16,185,129,0.12);color:#059669">✓</div>
+              <div><strong>Live RAG Vector Indexing:</strong> Upload course slides/PDFs with automated background vectorization for the student bot.</div>
+            </div>
+          </div>
+        </div>
+        <div class="portal-image-side">
+          <div class="portal-image-frame">
+            <img src="assets/screens/teacher/dashboard.png" alt="PAI Class Teacher Portal Dashboard">
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 3: Admin Portal -->
+      <div class="portal-showcase-panel" id="panel-admin">
+        <div class="portal-info-side">
+          <span class="portal-role-tag" style="background:rgba(6,182,212,0.12);color:#0891B2">Administrator Experience</span>
+          <h3 style="font-size:1.875rem;margin-bottom:12px">Clear, instant view of the entire campus</h3>
+          <p style="color:var(--text-secondary);font-size:1rem;margin-bottom:20px">
+            Oversee university departments, curriculum programs, faculty assignments, and attendance risk watchlists from a high-performance command center.
+          </p>
+
+          <div class="portal-features-grid">
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(6,182,212,0.12);color:#0891B2">✓</div>
+              <div><strong>Smart AI Bulk CSV Importer:</strong> Matches messy columns automatically, detects duplicates, and provisions accounts instantly.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(6,182,212,0.12);color:#0891B2">✓</div>
+              <div><strong>Attendance Policy Rules Engine:</strong> Adjust university attendance threshold (< 75%) to update warning rules campus-wide.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(6,182,212,0.12);color:#0891B2">✓</div>
+              <div><strong>Executive AI Assistant:</strong> Query campus enrollment, faculty workloads, and student statistics in plain English.</div>
+            </div>
+            <div class="portal-feature-row">
+              <div class="portal-feature-bullet" style="background:rgba(6,182,212,0.12);color:#0891B2">✓</div>
+              <div><strong>Campus Announcements Broadcaster:</strong> Targeted priority broadcasts (Urgent, Academic, General) to faculty and students.</div>
+            </div>
+          </div>
+        </div>
+        <div class="portal-image-side">
+          <div class="portal-image-frame">
+            <img src="assets/screens/admin/dashboard.png" alt="PAI Class Administrator Portal Dashboard">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE FEATURE SIMULATORS SECTION
+       ========================================================================== -->
+  <section class="section-wrapper" id="simulators">
+    <div class="container">
+      
+      <div class="section-header-center">
+        <div class="section-tag section-tag-emerald">
+          <span>Hands-On Interactive Simulators</span>
+        </div>
+        <h2 class="section-title">Experience the Speed of <span class="gradient-text">PAI Class Right Now</span></h2>
+        <p class="section-subtitle">
+          Try the real-time Swipe Attendance engine and ask the Grounded AI Tutor a question in English or Urdu below.
+        </p>
+      </div>
+
+      <div class="simulators-grid">
+
+        <!-- Simulator 1: Smart Swipe Attendance Playground -->
+        <div class="sim-card glass-card">
+          <div class="sim-header">
+            <div>
+              <div class="sim-title">📱 Smart Swipe Attendance</div>
+              <p style="font-size:0.8125rem;color:var(--text-secondary)">Swipe cards or click buttons to mark attendance</p>
+            </div>
+            <div class="section-tag section-tag-emerald" style="margin-bottom:0">Live Engine</div>
+          </div>
+
+          <div class="sim-phone-wrapper">
+            <div class="sim-phone-screen">
+              
+              <!-- Ring Gauge & Real-time Stats -->
+              <div class="sim-gauge-row">
+                <div>
+                  <div style="font-size:0.75rem;color:var(--text-tertiary);text-transform:uppercase;font-weight:700">Course Attendance</div>
+                  <div id="simAttendanceStats" style="font-size:0.875rem;margin-top:2px">
+                    <span style="color:#10B981;font-weight:700">✓ 0 Present</span> · 
+                    <span style="color:#F43F5E;font-weight:700">✗ 0 Absent</span>
+                  </div>
+                </div>
+
+                <div class="sim-gauge-circle-wrap">
+                  <svg class="sim-gauge-svg" viewBox="0 0 60 60">
+                    <circle class="sim-gauge-bg" cx="30" cy="30" r="24"></circle>
+                    <circle class="sim-gauge-bar" id="simGaugeBar" cx="30" cy="30" r="24"></circle>
+                  </svg>
+                  <div class="sim-gauge-text" id="simGaugeText">100%</div>
+                </div>
+              </div>
+
+              <!-- Low Attendance Alert Notification Banner -->
+              <div id="simAttendanceAlert" style="display:none;background:#FEF2F2;border:1px solid #FECACA;color:#991B1B;padding:8px 12px;border-radius:10px;font-size:0.75rem;margin-bottom:12px;line-height:1.4"></div>
+
+              <!-- Interactive Card Stack -->
+              <div class="sim-card-stack" id="simCardStack">
+                <!-- Injected via JavaScript -->
+              </div>
+
+              <!-- Swipe Action Buttons -->
+              <div class="swipe-btn-group">
+                <button class="btn-swipe-absent" id="btnSwipeAbsent" title="Swipe Left">
+                  <span>← Swipe Left (Absent)</span>
+                </button>
+                <button class="btn-swipe-present" id="btnSwipePresent" title="Swipe Right">
+                  <span>Swipe Right (Present) →</span>
+                </button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Simulator 2: Bilingual RAG AI Tutor Sandbox -->
+        <div class="sim-card glass-card">
+          <div class="sim-header">
+            <div>
+              <div class="sim-title">🧠 Bilingual RAG AI Tutor Demo</div>
+              <p style="font-size:0.8125rem;color:var(--text-secondary)">Strictly grounded in lecture slides (English &amp; Urdu)</p>
+            </div>
+            <div class="section-tag section-tag-cyan" style="margin-bottom:0">Zero Hallucination</div>
+          </div>
+
+          <div class="chat-sim-wrapper">
+            
+            <!-- Prompt Suggestion Chips -->
+            <div class="chat-chip-suggestions">
+              <button class="chat-prompt-chip" data-query-key="trees">🌲 Explain Binary Trees</button>
+              <button class="chat-prompt-chip" data-query-key="urdu">🇵🇰 الگورتھم کی وضاحت (Urdu)</button>
+              <button class="chat-prompt-chip" data-query-key="copilot">📊 My Attendance &amp; Deadlines</button>
+              <button class="chat-prompt-chip" data-query-key="quiz">📝 Generate Quiz Questions</button>
+            </div>
+
+            <!-- Messages Stream Area -->
+            <div class="chat-sim-messages" id="chatMessagesBox">
+              <div class="chat-bubble chat-bubble-ai">
+                <div>Hello! I am your <strong>PAI Class Subject AI Tutor</strong>. Ask me anything about your enrolled courses in English or Urdu. Every answer is strictly grounded in your instructor's lecture slides.</div>
+                <div style="display:flex;align-items:center;gap:6px;margin-top:6px">
+                  <span class="citation-pill">📄 Knowledge Base: CS101 Slides</span>
+                  <span style="font-size:0.7rem;font-weight:700;color:#10B981">🛡️ Strict Fence Active</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Input Bar -->
+            <div class="chat-input-bar">
+              <input type="text" class="chat-input-field" id="chatInput" placeholder="Ask about lecture topics, algorithms, or deadlines..." aria-label="Ask AI Tutor">
+              <button class="btn btn-primary btn-sm" id="btnChatSend">Send</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STRICT RAG FENCE & ANTI-HALLUCINATION (Slide 12)
+       ========================================================================== -->
+  <section class="section-wrapper" id="fence">
+    <div class="container">
+
+      <div class="fence-feature-box">
+        <div class="section-header-center" style="margin-bottom:32px">
+          <div class="section-tag section-tag-cyan">
+            <span>Anti-Hallucination Architecture</span>
+          </div>
+          <h2 class="section-title">The System Uses a <span class="gradient-text">Strict 'Fence'</span> So AI Never Makes Things Up</h2>
+          <p class="section-subtitle">
+            Most AI reads the open internet, which causes mistakes, hallucinations, and false information. PAI Class is fundamentally different: our AI is strictly locked inside a boundary fence.
+          </p>
+        </div>
+
+        <!-- 3-Node Fence Flow Diagram -->
+        <div class="fence-diagram-grid">
+          
+          <div class="fence-node-card">
+            <div style="font-size:2rem;margin-bottom:8px">👩‍🏫</div>
+            <div style="font-weight:800;font-size:1.1rem;color:var(--text-primary)">Step 1: Teacher Upload</div>
+            <p style="font-size:0.8125rem;color:var(--text-secondary);margin-top:6px">
+              Instructor uploads official course slides, lecture PDFs, and syllabus documents into the Resource Hub.
+            </p>
+          </div>
+
+          <div class="fence-arrow">➔</div>
+
+          <div class="fence-node-card fence-node-center">
+            <div style="font-size:2rem;margin-bottom:8px">🛡️</div>
+            <div style="font-weight:900;font-size:1.1rem;color:var(--brand-primary)">Step 2: Strict Document Fence</div>
+            <p style="font-size:0.8125rem;color:var(--text-secondary);margin-top:6px">
+              Poppler OCR &amp; Mistral 1024-dim embeddings index the exact slide boundaries. No unverified internet data allowed.
+            </p>
+          </div>
+
+          <div class="fence-arrow">➔</div>
+
+          <div class="fence-node-card">
+            <div style="font-size:2rem;margin-bottom:8px">🎓</div>
+            <div style="font-weight:800;font-size:1.1rem;color:var(--text-primary)">Step 3: Grounded Student Answer</div>
+            <p style="font-size:0.8125rem;color:var(--text-secondary);margin-top:6px">
+              Student receives an accurate answer citing exact slide page numbers. If it's not in the slides, the AI rejects the query.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PRESENTATION DECK SHOWCASE & LIGHTBOX (Slide 1 to 15)
+       ========================================================================== -->
+  <section class="section-wrapper" id="deck">
+    <div class="container">
+      
+      <div class="section-header-center">
+        <div class="section-tag section-tag-indigo">
+          <span>Official Presentation Deck</span>
+        </div>
+        <h2 class="section-title">Explore the 15-Slide <span class="gradient-text">"Frictionless Education"</span> Deck</h2>
+        <p class="section-subtitle">
+          Click any slide to open full-screen in high resolution. Use the arrows or thumbnails to navigate the presentation.
+        </p>
+      </div>
+
+      <div class="deck-carousel-wrap">
+        
+        <!-- Main Slide Viewport -->
+        <div class="deck-main-display" id="deckMainDisplay" title="Click to view full screen">
+          <img src="assets/slides/slide_01.png" alt="PAI Class Presentation Slide" class="deck-main-img" id="deckMainImg">
+          
+          <button class="deck-nav-btn deck-nav-prev" id="deckPrevBtn" aria-label="Previous Slide">‹</button>
+          <button class="deck-nav-btn deck-nav-next" id="deckNextBtn" aria-label="Next Slide">›</button>
+
+          <div class="deck-counter-badge" id="deckSlideCounter">1 / 15</div>
+        </div>
+
+        <!-- Slide Caption -->
+        <div style="text-align:center;margin-bottom:18px">
+          <p id="deckSlideDesc" style="font-weight:700;color:var(--text-primary);font-size:1.05rem">
+            Slide 1 — Welcome to PAI Class: The smart, fast, and easy way to run your school.
+          </p>
+          <span style="font-size:0.8125rem;color:var(--text-tertiary)">Tip: Click the slide to zoom, or use left/right keyboard arrow keys</span>
+        </div>
+
+        <!-- Horizontal Thumbnail Scroller -->
+        <div class="deck-thumbs-scroller" id="deckThumbsScroller">
+          <!-- Injected via JavaScript -->
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Fullscreen Slide Lightbox Modal -->
+  <div class="lightbox-modal" id="deckLightbox">
+    <div class="lightbox-content-wrap">
+      <button class="lightbox-close-btn" id="lightboxClose" aria-label="Close Lightbox">✕</button>
+      <img src="" alt="Enlarged Slide" class="lightbox-img" id="lightboxImg">
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       ARCHITECTURE & TECHNICAL EXCELLENCE (No-Bloat Philosophy)
+       ========================================================================== -->
+  <section class="section-wrapper" id="architecture">
+    <div class="container">
+
+      <div class="section-header-center">
+        <div class="section-tag">
+          <span>Engineered for Reliability</span>
+        </div>
+        <h2 class="section-title">Custom Software Built Specifically for <span class="gradient-text">Speed &amp; Zero Clutter</span></h2>
+        <p class="section-subtitle">
+          PAI Class is built with lightweight, dependable code, completely bypassing heavy, bloated web tools that crash under load.
+        </p>
+      </div>
+
+      <div class="arch-grid">
+        
+        <div class="arch-card glass-card">
+          <div class="arch-icon">⚡</div>
+          <div class="arch-card-title">Native Typed PHP 8.4+</div>
+          <div class="arch-card-desc">
+            Runs with sub-millisecond execution directly on modern university servers with zero compilation delay and built-in session encryption.
+          </div>
+        </div>
+
+        <div class="arch-card glass-card">
+          <div class="arch-icon">💾</div>
+          <div class="arch-card-title">Zero-Crash SQLite 3 WAL</div>
+          <div class="arch-card-desc">
+            Complete institutional data lives in a high-concurrency WAL database (<code>ptut.sqlite</code>). Zero separate database servers to crash or configure.
+          </div>
+        </div>
+
+        <div class="arch-card glass-card">
+          <div class="arch-icon">🤖</div>
+          <div class="arch-card-title">Mistral AI &amp; Poppler OCR</div>
+          <div class="arch-card-desc">
+            Bilingual semantic vector search with 1024-dimensional embeddings and Poppler binary text extraction across English and Urdu.
+          </div>
+        </div>
+
+        <div class="arch-card glass-card">
+          <div class="arch-icon">🛡️</div>
+          <div class="arch-card-title">Human-in-the-Loop Grading</div>
+          <div class="arch-card-desc">
+            AI analyzes student-to-student text similarity and drafts grades, while instructors maintain 100% authoritative final approve &amp; release control.
+          </div>
+        </div>
+
+        <div class="arch-card glass-card">
+          <div class="arch-icon">🔒</div>
+          <div class="arch-card-title">Enterprise RBAC &amp; Bcrypt</div>
+          <div class="arch-card-desc">
+            Bcrypt cost 12 password hashing, HttpOnly session cookies, CSRF protection, and role middleware protecting sensitive academic records.
+          </div>
+        </div>
+
+        <div class="arch-card glass-card">
+          <div class="arch-icon">🚀</div>
+          <div class="arch-card-title">Zero NPM Runtime Bloat</div>
+          <div class="arch-card-desc">
+            Pure Vanilla ES6+ Single Page Application with hash routing. No node runtime, no build tools, and zero fragile npm dependencies in production.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CALL TO ACTION / FINALE (Slide 15)
+       ========================================================================== -->
+  <section class="section-wrapper" id="cta">
+    <div class="container">
+      
+      <div class="cta-banner-card">
+        <h2 class="cta-title">Education Without the Friction.</h2>
+        <p class="cta-subtitle">
+          Ready to make your university smarter, faster, and easier to run? Experience the next generation of academic management today.
+        </p>
+        <div style="display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap">
+          <a href="#portals" class="btn btn-primary" style="padding:16px 36px;font-size:1.05rem">
+            <span>Launch Campus Portals</span>
+            <span style="font-size:1.2rem">🚀</span>
+          </a>
+          <a href="#simulators" class="btn btn-secondary" style="padding:16px 32px">
+            <span>⚡ Test Live Simulators</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <div>
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px">
+            <div class="nav-logo-badge" style="width:32px;height:32px;font-size:1rem">P</div>
+            <span class="footer-brand-title" style="margin-bottom:0">PAI Class</span>
+          </div>
+          <p style="font-size:0.875rem;color:var(--text-secondary);max-width:320px;line-height:1.6">
+            The AI-native Higher Education Operating System &amp; LMS for Punjab Tianjin University of Technology (PTUT).
+          </p>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Portals</div>
+          <ul class="footer-links-list">
+            <li><a href="#portals" class="footer-link">Student Portal (/student)</a></li>
+            <li><a href="#portals" class="footer-link">Teacher Portal (/teacher)</a></li>
+            <li><a href="#portals" class="footer-link">Admin Portal (/admin)</a></li>
+            <li><a href="#simulators" class="footer-link">Interactive Simulators</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">AI &amp; Features</div>
+          <ul class="footer-links-list">
+            <li><a href="#fence" class="footer-link">Strict RAG Lecture Fence</a></li>
+            <li><a href="#simulators" class="footer-link">Smart Swipe Attendance</a></li>
+            <li><a href="#comparison" class="footer-link">AI Pre-Grading &amp; OCR</a></li>
+            <li><a href="#architecture" class="footer-link">Bilingual Urdu/English Support</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Resources</div>
+          <ul class="footer-links-list">
+            <li><a href="#deck" class="footer-link">Presentation Deck (15 Slides)</a></li>
+            <li><a href="#architecture" class="footer-link">Architecture &amp; Specifications</a></li>
+            <li><a href="#comparison" class="footer-link">The Frictionless Slogan</a></li>
+            <li><a href="#hero" class="footer-link">Back to Top ↑</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 PAI Class — Built for Punjab Tianjin University of Technology (PTUT). All rights reserved.</div>
+        <div style="display:flex;gap:16px">
+          <span>Privacy Focused</span>
+          <span>·</span>
+          <span>Zero-Bloat Architecture</span>
+          <span>·</span>
+          <span>On-Premises AI</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Main Animation & Simulator Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
